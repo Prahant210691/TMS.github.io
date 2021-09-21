@@ -1,0 +1,1397 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>TMS</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.css">
+    <link rel="stylesheet" href="css/owl.transitions.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/meanmenu.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/educate-custon-icon.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/morrisjs/morris.css">
+    <link rel="stylesheet" href="css/scrollbar/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="css/metisMenu/metisMenu.min.css">
+    <link rel="stylesheet" href="css/metisMenu/metisMenu-vertical.css">
+    <link rel="stylesheet" href="css/calendar/fullcalendar.min.css">
+    <link rel="stylesheet" href="css/calendar/fullcalendar.print.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/timeline.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+
+    <style type="text/css">
+        .preview-images-zone, .preview-images-zone11 {
+            /*width: 100%;
+            border: 1px solid #ddd;
+            min-height: 180px;*/
+            /* display: flex; */
+            padding: 5px 5px 0px 5px;
+            position: relative;
+            overflow:auto;
+        }
+        .preview-images-zone > .preview-image:first-child{
+            height: 130px;
+            width: 130px;
+            position: relative;
+            margin-right: 5px;
+        }
+        .preview-images-zone11 > .preview-image11:first-child {
+            height: 130px;
+            width: 130px;
+            position: relative;
+            margin-right: 5px;
+        }
+        .preview-images-zone > .preview-image {
+            height: 130px;
+            width: 130px;
+            position: relative;
+            margin-right: 5px;
+            float: left;
+            margin-bottom: 5px;
+        }
+        .preview-images-zone11 > .preview-image11 {
+            height: 130px;
+            width: 130px;
+            position: relative;
+            margin-right: 5px;
+            float: left;
+            margin-bottom: 5px;
+        }
+        .preview-images-zone > .preview-image > .image-zone, 
+        .preview-images-zone11 > .preview-image11 > .image-zone {
+            width: 100%;
+            height: 100%;
+        }
+        .preview-images-zone > .preview-image > .image-zone > img, 
+        .preview-images-zone11 > .preview-image11 > .image-zone > img {
+            width: 100%;
+            height: 100%;
+        }
+        .preview-images-zone > .preview-image > .tools-edit-image, 
+        .preview-images-zone11 > .preview-image11 > .tools-edit-image {
+            position: absolute;
+            z-index: 100;
+            color: #fff;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            margin-bottom: 10px;
+            display: none;
+        }
+        .preview-images-zone > .preview-image > .image-cancel, .preview-images-zone11 > .preview-image > .image-cancel,
+        .preview-images-zone > .preview-image11 > .image-cancel11, .preview-images-zone11 > .preview-image11 > .image-cancel11 {
+            font-size: 18px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            font-weight: bold;
+            margin-right: 10px;
+            cursor: pointer;
+            display: none;
+            z-index: 100;
+        }
+        .preview-image:hover > .image-zone,
+        .preview-image11:hover > .image-zone {
+            cursor: move;
+            opacity: .5;
+        }
+        .preview-image:hover > .tools-edit-image,
+        .preview-image:hover > .image-cancel,
+        .preview-image11:hover > .tools-edit-image,
+        .preview-image11:hover > .image-cancel11 {
+            display: block;
+        }
+        .ui-sortable-helper {
+            width: 90px !important;
+            height: 90px !important;
+        }
+
+        .container {
+            padding-top: 50px;
+        }
+
+/*Image add ENd*/
+
+
+
+
+    </style>
+
+</head>
+
+<body>
+  
+    <div class="left-sidebar-pro">
+        <nav id="sidebar" class="">
+            <div class="sidebar-header">
+                <a href="index.html"><img class="main-logo" src="img/logo/logo.png" alt="" /></a>
+                <strong><a href="index.html"><img src="img/logo/logosn.png" alt="" /></a></strong>
+            </div>
+            <div class="left-custom-menu-adp-wrap comment-scrollbar">
+                <nav class="sidebar-nav left-sidebar-menu-pro">
+                    <ul class="metismenu" id="menu1">
+                        <!-- <li class="active">
+                            <a class="has-arrow" href="index.html">
+							   <span class="fa fa-user icon-wrap"></span>
+							   <span class="mini-click-non">Education</span>
+							</a>
+                            <ul class="submenu-angle" aria-expanded="true">
+                                <li><a title="Dashboard v.1" href="index.html"><span class="mini-sub-pro">Dashboard v.1</span></a></li>
+                                <li><a title="Dashboard v.2" href="index-1.html"><span class="mini-sub-pro">Dashboard v.2</span></a></li>
+                                <li><a title="Dashboard v.3" href="index-2.html"><span class="mini-sub-pro">Dashboard v.3</span></a></li>
+                                <li><a title="Analytics" href="analytics.html"><span class="mini-sub-pro">Analytics</span></a></li>
+                                <li><a title="Widgets" href="widgets.html"><span class="mini-sub-pro">Widgets</span></a></li>
+                            </ul>
+                        </li> -->
+                        <li>
+                            <a href="Dashboard.html" aria-expanded="false"  data-toggle="tooltip" data-placement="right" title="Dashboard">
+                                <!-- <span class="material-icons sub-icon-mg" aria-hidden="true">dashboard</span> <span class="mini-click-non">Dashboard</span> -->
+                                <img  src="img/dashboard_img.svg" class="left_menu_img grey_img"><img  src="img/dashboard_img_blue.svg" class="left_menu_img blue_img"> <span class="mini-click-non">Dashboard</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Vendor_List.html" aria-expanded="false"  data-toggle="tooltip" data-placement="right" title="Vendor">
+                                <!-- <span class="material-icons sub-icon-mg" aria-hidden="true">person</span> <span class="mini-click-non">Vendor</span> -->
+                                <img  src="img/vendor_img.svg" class="left_menu_img grey_img"><img  src="img/vendor_img_blue.svg" class="left_menu_img blue_img"> <span class="mini-click-non">Vendor</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Vendor_Registration.html" aria-expanded="false"  data-toggle="tooltip" data-placement="right" title="Vendor Registration">
+                                <!-- <span class="material-icons sub-icon-mg" aria-hidden="true">app_registration</span> <span class="mini-click-non">Vendor Registration</span> -->
+                                <img  src="img/vendor_registration_img.svg" class="left_menu_img grey_img"><img  src="img/vendor_registration_img_blue.svg" class="left_menu_img blue_img"> <span class="mini-click-non">Vendor Registration</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="RFQ_create.html" aria-expanded="false"  data-toggle="tooltip" data-placement="right" title="Create RFQ">
+                                <!-- <span class="material-icons sub-icon-mg" aria-hidden="true">edit</span> <span class="mini-click-non">Create RFQ</span> -->
+                                <img  src="img/RFQ_edit.svg" class="left_menu_img grey_img"><img  src="img/RFQ_edit_blue.svg" class="left_menu_img blue_img"> <span class="mini-click-non">Create RFQ</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="RFQ_List.html" aria-expanded="false"  data-toggle="tooltip" data-placement="right" title="RFQ">
+                                <!-- <span class="material-icons sub-icon-mg" aria-hidden="true">receipt_long</span> <span class="mini-click-non">RFQ</span> -->
+                                <img  src="img/create_RFQ.svg" class="left_menu_img grey_img"><img  src="img/create_RFQ_blue.svg" class="left_menu_img blue_img"> <span class="mini-click-non">RFQ</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Quotation.html" aria-expanded="false"  data-toggle="tooltip" data-placement="right" title="Quotation">
+                                <!-- <span class="material-icons sub-icon-mg" aria-hidden="true">request_quote</span> <span class="mini-click-non">Quotation</span> -->
+                                <img  src="img/Quotation_img1.svg" class="left_menu_img grey_img"><img  src="img/Quotation_img1_blue.svg" class="left_menu_img blue_img"> <span class="mini-click-non">Quotation</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Customer_track.html" aria-expanded="false"  data-toggle="tooltip" data-placement="right" title="Shipment Tracking">
+                                <!-- <span class="material-icons sub-icon-mg" aria-hidden="true">track_changes</span> <span class="mini-click-non">Shipment Tracking</span> -->
+                                <img  src="img/Shipment_Tracking.svg" class="left_menu_img grey_img"><img  src="img/Shipment_Tracking_blue.svg" class="left_menu_img blue_img"> <span class="mini-click-non">Shipment Tracking</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Raise_Invoice_List.html" aria-expanded="false"  data-toggle="tooltip" data-placement="right" title="Raise Invoice">
+                                <!-- <span class="material-icons sub-icon-mg" aria-hidden="true">receipt</span> <span class="mini-click-non">Raise Invoice</span> -->
+                                <img  src="img/Raise_Invoice.svg" class="left_menu_img grey_img"><img  src="img/Raise_Invoice_blue.svg" class="left_menu_img blue_img"> <span class="mini-click-non">Raise Invoice</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Receivables_List.html" aria-expanded="false"  data-toggle="tooltip" data-placement="right" title="Receivables">
+                                <!-- <span class="material-icons sub-icon-mg" aria-hidden="true">call_received</span> <span class="mini-click-non">Receivables</span> -->
+                                <img  src="img/Receivables_img.svg" class="left_menu_img grey_img"><img  src="img/Receivables_img_blue.svg" class="left_menu_img blue_img"> <span class="mini-click-non">Receivables</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Raise_Bill_List.html" aria-expanded="false"  data-toggle="tooltip" data-placement="right" title="Raise Bill">
+                                <!-- <span class="material-icons sub-icon-mg" aria-hidden="true">mark_email_read</span> <span class="mini-click-non">Raise Bill</span> -->
+                                <img  src="img/Raise_Bill.svg" class="left_menu_img grey_img"><img  src="img/Raise_Bill_blue.svg" class="left_menu_img blue_img"> <span class="mini-click-non">Raise Bill</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Payable_List.html" aria-expanded="false"  data-toggle="tooltip" data-placement="right" title="Payable">
+                                <!-- <span class="material-icons sub-icon-mg" aria-hidden="true">attach_money</span> <span class="mini-click-non">Payable</span> -->
+                                <img  src="img/Payable_img.svg" class="left_menu_img grey_img"><img  src="img/Payable_img_blue.svg" class="left_menu_img blue_img"> <span class="mini-click-non">Payable</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </nav>
+    </div>
+    <div class="all-content-wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="logo-pro">
+                        <a href="index.html"><img class="main-logo" src="img/logo/logo.png" alt="" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-advance-area">
+            <div class="header-top-area">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="header-top-wraper">
+                                <div class="row">
+                                    <div class="col-lg-1 col-md-0 col-sm-1 col-xs-12">
+                                        <div class="menu-switcher-pro">
+                                            <button type="button" id="sidebarCollapse" class="btn bar-button-pro header-drl-controller-btn btn-info navbar-btn">
+													<i class="fa fa-bars"></i>
+												</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-7 col-sm-6 col-xs-12">
+                                        
+                                    </div>
+                                    <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                                        <div class="header-right-info">
+                                            <ul class="nav navbar-nav mai-top-nav header-right-menu">
+                                                
+                                                <li class="nav-item">
+                                                    <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle">
+														<img src="img/product/pro4.jpg" alt="" />
+														<span class="admin-name">RGL Backoffice</span>
+														<i class="fa fa-angle-down edu-icon edu-down-arrow"></i>
+													</a>
+                                                    <ul role="menu" class="dropdown-header-top author-log dropdown-menu animated zoomIn">
+                                                        <li><a href="#"><span class="edu-icon edu-home-admin author-log-ic"></span>My Account</a>
+                                                        </li>
+                                                        <li><a href="#"><span class="edu-icon edu-user-rounded author-log-ic"></span>My Profile</a>
+                                                        </li>
+                                                        <li><a href="#"><span class="edu-icon edu-money author-log-ic"></span>User Billing</a>
+                                                        </li>
+                                                        <li><a href="#"><span class="edu-icon edu-settings author-log-ic"></span>Settings</a>
+                                                        </li>
+                                                        <li><a href="#"><span class="edu-icon edu-locked author-log-ic"></span>Log Out</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="nav-item nav-setting-open"><a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle"><i class="fa fa-cog"></i></a>
+
+                                                    <div role="menu" class="admintab-wrap menu-setting-wrap menu-setting-wrap-bg dropdown-menu animated zoomIn">
+                                                        <ul class="nav nav-tabs custon-set-tab">
+                                                            <li class="active"><a data-toggle="tab" href="#Notes">Notes</a>
+                                                            </li>
+                                                            <!-- <li><a data-toggle="tab" href="#Projects">Projects</a>
+                                                            </li> -->
+                                                            <li><a data-toggle="tab" href="#Settings">Settings</a>
+                                                            </li>
+                                                        </ul>
+
+                                                        <div class="tab-content custom-bdr-nt">
+                                                            <div id="Notes" class="tab-pane fade in active">
+                                                                <div class="notes-area-wrap">
+                                                                    <div class="note-heading-indicate">
+                                                                        <h2><i class="fa fa-comments-o"></i> Latest Notes</h2>
+                                                                        <p>You have 10 new message.</p>
+                                                                    </div>
+                                                                    <div class="notes-list-area notes-menu-scrollbar">
+                                                                        <ul class="notes-menu-list">
+                                                                            <li>
+                                                                                <a href="#">
+                                                                                    <div class="notes-list-flow">
+                                                                                        <div class="notes-img">
+                                                                                            <img src="img/contact/4.jpg" alt="" />
+                                                                                        </div>
+                                                                                        <div class="notes-content">
+                                                                                            <p> The point of using Lorem Ipsum is that it has a more-or-less normal.</p>
+                                                                                            <span>Yesterday 2:45 pm</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#">
+                                                                                    <div class="notes-list-flow">
+                                                                                        <div class="notes-img">
+                                                                                            <img src="img/contact/1.jpg" alt="" />
+                                                                                        </div>
+                                                                                        <div class="notes-content">
+                                                                                            <p> The point of using Lorem Ipsum is that it has a more-or-less normal.</p>
+                                                                                            <span>Yesterday 2:45 pm</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#">
+                                                                                    <div class="notes-list-flow">
+                                                                                        <div class="notes-img">
+                                                                                            <img src="img/contact/2.jpg" alt="" />
+                                                                                        </div>
+                                                                                        <div class="notes-content">
+                                                                                            <p> The point of using Lorem Ipsum is that it has a more-or-less normal.</p>
+                                                                                            <span>Yesterday 2:45 pm</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#">
+                                                                                    <div class="notes-list-flow">
+                                                                                        <div class="notes-img">
+                                                                                            <img src="img/contact/3.jpg" alt="" />
+                                                                                        </div>
+                                                                                        <div class="notes-content">
+                                                                                            <p> The point of using Lorem Ipsum is that it has a more-or-less normal.</p>
+                                                                                            <span>Yesterday 2:45 pm</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#">
+                                                                                    <div class="notes-list-flow">
+                                                                                        <div class="notes-img">
+                                                                                            <img src="img/contact/4.jpg" alt="" />
+                                                                                        </div>
+                                                                                        <div class="notes-content">
+                                                                                            <p> The point of using Lorem Ipsum is that it has a more-or-less normal.</p>
+                                                                                            <span>Yesterday 2:45 pm</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#">
+                                                                                    <div class="notes-list-flow">
+                                                                                        <div class="notes-img">
+                                                                                            <img src="img/contact/1.jpg" alt="" />
+                                                                                        </div>
+                                                                                        <div class="notes-content">
+                                                                                            <p> The point of using Lorem Ipsum is that it has a more-or-less normal.</p>
+                                                                                            <span>Yesterday 2:45 pm</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#">
+                                                                                    <div class="notes-list-flow">
+                                                                                        <div class="notes-img">
+                                                                                            <img src="img/contact/2.jpg" alt="" />
+                                                                                        </div>
+                                                                                        <div class="notes-content">
+                                                                                            <p> The point of using Lorem Ipsum is that it has a more-or-less normal.</p>
+                                                                                            <span>Yesterday 2:45 pm</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#">
+                                                                                    <div class="notes-list-flow">
+                                                                                        <div class="notes-img">
+                                                                                            <img src="img/contact/1.jpg" alt="" />
+                                                                                        </div>
+                                                                                        <div class="notes-content">
+                                                                                            <p> The point of using Lorem Ipsum is that it has a more-or-less normal.</p>
+                                                                                            <span>Yesterday 2:45 pm</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#">
+                                                                                    <div class="notes-list-flow">
+                                                                                        <div class="notes-img">
+                                                                                            <img src="img/contact/2.jpg" alt="" />
+                                                                                        </div>
+                                                                                        <div class="notes-content">
+                                                                                            <p> The point of using Lorem Ipsum is that it has a more-or-less normal.</p>
+                                                                                            <span>Yesterday 2:45 pm</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
+                                                                                <a href="#">
+                                                                                    <div class="notes-list-flow">
+                                                                                        <div class="notes-img">
+                                                                                            <img src="img/contact/3.jpg" alt="" />
+                                                                                        </div>
+                                                                                        <div class="notes-content">
+                                                                                            <p> The point of using Lorem Ipsum is that it has a more-or-less normal.</p>
+                                                                                            <span>Yesterday 2:45 pm</span>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            
+                                                            <div id="Settings" class="tab-pane fade">
+                                                                <div class="setting-panel-area">
+                                                                    <div class="note-heading-indicate">
+                                                                        <h2><i class="fa fa-gears"></i> Settings Panel</h2>
+                                                                    </div>
+                                                                    <ul class="setting-panel-list">
+                                                                        <li>
+                                                                            <div class="checkbox-setting-pro">
+                                                                                <div class="checkbox-title-pro">
+                                                                                    <h2>Show notifications</h2>
+                                                                                    <div class="ts-custom-check">
+                                                                                        <div class="onoffswitch">
+                                                                                            <input type="checkbox" name="collapsemenu" class="onoffswitch-checkbox" id="example">
+                                                                                            <label class="onoffswitch-label" for="example">
+																									<span class="onoffswitch-inner"></span>
+																									<span class="onoffswitch-switch"></span>
+																								</label>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li>
+                                                                            <div class="checkbox-setting-pro">
+                                                                                <div class="checkbox-title-pro">
+                                                                                    <h2>Email Notification</h2>
+                                                                                    <div class="ts-custom-check">
+                                                                                        <div class="onoffswitch">
+                                                                                            <input type="checkbox" name="collapsemenu" checked="" class="onoffswitch-checkbox" id="example2">
+                                                                                            <label class="onoffswitch-label" for="example2">
+																									<span class="onoffswitch-inner"></span>
+																									<span class="onoffswitch-switch"></span>
+																								</label>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </li>
+                                                                    </ul>
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Mobile Menu start -->
+            <div class="mobile-menu-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="mobile-menu">
+                                <nav id="dropdown">
+                                    <ul class="mobile-menu-nav">
+                                        <li><a data-toggle="collapse" data-target="#Charts" href="#">Home <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                            <ul class="collapse dropdown-header-top">
+                                                <li><a href="index.html">Dashboard v.1</a></li>
+                                                <li><a href="index-1.html">Dashboard v.2</a></li>
+                                                <li><a href="index-3.html">Dashboard v.3</a></li>
+                                                <li><a href="analytics.html">Analytics</a></li>
+                                                <li><a href="widgets.html">Widgets</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="events.html">Event</a></li>
+                                        <li><a data-toggle="collapse" data-target="#demoevent" href="#">Professors <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                            <ul id="demoevent" class="collapse dropdown-header-top">
+                                                <li><a href="all-professors.html">All Professors</a>
+                                                </li>
+                                                <li><a href="add-professor.html">Add Professor</a>
+                                                </li>
+                                                <li><a href="edit-professor.html">Edit Professor</a>
+                                                </li>
+                                                <li><a href="professor-profile.html">Professor Profile</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a data-toggle="collapse" data-target="#demopro" href="#">Students <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                            <ul id="demopro" class="collapse dropdown-header-top">
+                                                <li><a href="all-students.html">All Students</a>
+                                                </li>
+                                                <li><a href="add-student.html">Add Student</a>
+                                                </li>
+                                                <li><a href="edit-student.html">Edit Student</a>
+                                                </li>
+                                                <li><a href="student-profile.html">Student Profile</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a data-toggle="collapse" data-target="#democrou" href="#">Courses <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                            <ul id="democrou" class="collapse dropdown-header-top">
+                                                <li><a href="all-courses.html">All Courses</a>
+                                                </li>
+                                                <li><a href="add-course.html">Add Course</a>
+                                                </li>
+                                                <li><a href="edit-course.html">Edit Course</a>
+                                                </li>
+                                                <li><a href="course-profile.html">Courses Info</a>
+                                                </li>
+                                                <li><a href="course-payment.html">Courses Payment</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a data-toggle="collapse" data-target="#demolibra" href="#">Library <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                            <ul id="demolibra" class="collapse dropdown-header-top">
+                                                <li><a href="library-assets.html">Library Assets</a>
+                                                </li>
+                                                <li><a href="add-library-assets.html">Add Library Asset</a>
+                                                </li>
+                                                <li><a href="edit-library-assets.html">Edit Library Asset</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a data-toggle="collapse" data-target="#demodepart" href="#">Departments <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                            <ul id="demodepart" class="collapse dropdown-header-top">
+                                                <li><a href="departments.html">Departments List</a>
+                                                </li>
+                                                <li><a href="add-department.html">Add Departments</a>
+                                                </li>
+                                                <li><a href="edit-department.html">Edit Departments</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a data-toggle="collapse" data-target="#demo" href="#">Mailbox <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                            <ul id="demo" class="collapse dropdown-header-top">
+                                                <li><a href="mailbox.html">Inbox</a>
+                                                </li>
+                                                <li><a href="mailbox-view.html">View Mail</a>
+                                                </li>
+                                                <li><a href="mailbox-compose.html">Compose Mail</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a data-toggle="collapse" data-target="#Miscellaneousmob" href="#">Interface <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                            <ul id="Miscellaneousmob" class="collapse dropdown-header-top">
+                                                <li><a href="google-map.html">Google Map</a>
+                                                </li>
+                                                <li><a href="data-maps.html">Data Maps</a>
+                                                </li>
+                                                <li><a href="pdf-viewer.html">Pdf Viewer</a>
+                                                </li>
+                                                <li><a href="x-editable.html">X-Editable</a>
+                                                </li>
+                                                <li><a href="code-editor.html">Code Editor</a>
+                                                </li>
+                                                <li><a href="tree-view.html">Tree View</a>
+                                                </li>
+                                                <li><a href="preloader.html">Preloader</a>
+                                                </li>
+                                                <li><a href="images-cropper.html">Images Cropper</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a data-toggle="collapse" data-target="#Chartsmob" href="#">Charts <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                            <ul id="Chartsmob" class="collapse dropdown-header-top">
+                                                <li><a href="bar-charts.html">Bar Charts</a>
+                                                </li>
+                                                <li><a href="line-charts.html">Line Charts</a>
+                                                </li>
+                                                <li><a href="area-charts.html">Area Charts</a>
+                                                </li>
+                                                <li><a href="rounded-chart.html">Rounded Charts</a>
+                                                </li>
+                                                <li><a href="c3.html">C3 Charts</a>
+                                                </li>
+                                                <li><a href="sparkline.html">Sparkline Charts</a>
+                                                </li>
+                                                <li><a href="peity.html">Peity Charts</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a data-toggle="collapse" data-target="#Tablesmob" href="#">Tables <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                            <ul id="Tablesmob" class="collapse dropdown-header-top">
+                                                <li><a href="static-table.html">Static Table</a>
+                                                </li>
+                                                <li><a href="data-table.html">Data Table</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a data-toggle="collapse" data-target="#formsmob" href="#">Forms <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                            <ul id="formsmob" class="collapse dropdown-header-top">
+                                                <li><a href="basic-form-element.html">Basic Form Elements</a>
+                                                </li>
+                                                <li><a href="advance-form-element.html">Advanced Form Elements</a>
+                                                </li>
+                                                <li><a href="password-meter.html">Password Meter</a>
+                                                </li>
+                                                <li><a href="multi-upload.html">Multi Upload</a>
+                                                </li>
+                                                <li><a href="tinymc.html">Text Editor</a>
+                                                </li>
+                                                <li><a href="dual-list-box.html">Dual List Box</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a data-toggle="collapse" data-target="#Appviewsmob" href="#">App views <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                            <ul id="Appviewsmob" class="collapse dropdown-header-top">
+                                                <li><a href="basic-form-element.html">Basic Form Elements</a>
+                                                </li>
+                                                <li><a href="advance-form-element.html">Advanced Form Elements</a>
+                                                </li>
+                                                <li><a href="password-meter.html">Password Meter</a>
+                                                </li>
+                                                <li><a href="multi-upload.html">Multi Upload</a>
+                                                </li>
+                                                <li><a href="tinymc.html">Text Editor</a>
+                                                </li>
+                                                <li><a href="dual-list-box.html">Dual List Box</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a data-toggle="collapse" data-target="#Pagemob" href="#">Pages <span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                            <ul id="Pagemob" class="collapse dropdown-header-top">
+                                                <li><a href="login.html">Login</a>
+                                                </li>
+                                                <li><a href="register.html">Register</a>
+                                                </li>
+                                                <li><a href="lock.html">Lock</a>
+                                                </li>
+                                                <li><a href="password-recovery.html">Password Recovery</a>
+                                                </li>
+                                                <li><a href="404.html">404 Page</a></li>
+                                                <li><a href="500.html">500 Page</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Mobile Menu end -->
+            <div class="breadcome-area">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 padding_0">
+                            <div class="breadcome-list">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                        <ul class="breadcome-menu">
+                                            <li><a href="#">Home</a> <span class="bread-slash">/</span>
+                                            </li>
+                                            <li><span class="bread-blod">Edit Shipment Tracking (BHW/20-21/20)</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <!-- <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                        <div class="breadcome-heading">
+                                            <form role="search" class="sr-input-func">
+                                                <input type="text" placeholder="Search..." class="search-int form-control">
+                                                <a href="#"><i class="fa fa-search"></i></a>
+                                            </form>
+                                        </div>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="product-sales-area">
+            <div class="container-fluid">
+                <div class="row ">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="product-sales-chart">
+                            <div class="portlet-title">
+                                <div class="row">
+                                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                                        <h4 class="box-title">Edit Shipment Tracking</h4>
+                                    </div>
+                                    <div class="col-md-4 text-right">
+                                        <a href="#" class="save_btn" style="margin:0px 0px 5px;">Booked</a>
+                                    </div>
+                                </div>
+
+
+                                <div>
+                                    <div class="row row_margin" style="margin-top: 10px !important;">
+                                        <div class="col-md-8 col-sm-8 col-8">
+                                            <span data-toggle="collapse" data-target="#Shipment_Details" aria-expanded="true" class="collpase_arrow_cursor">
+                                        <i class="fa fa-chevron-down CRM_rotate_data" style="font-size: 12px;color: #898989;"></i><span class="heading_text" style="padding-left: 5px;">Shipment Details</span>
+                                            </span>
+                                        </div>
+                                        
+                                    </div>
+                                    <hr style="margin-top:0px;margin-bottom: 15px;background: #898989;">
+                                    <div class="CRM_details_div collapse in" id="Shipment_Details">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                  <label class="search_label">Shipment No</label>
+                                                  <input type="text" class="form-control Search_form_control" placeholder="Shipment No">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label class="search_label">Shipment Date</label>
+                                                <div class="input-group date" id="datetimepickerstart3">
+                                                    <input type="text" class="form-control Search_form_control" placeholder="Shipment Date">
+                                                    <span class="input-group-addon rounded-0 Search_form_control">
+                                                        <span class="fa fa-calendar"></span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                  <label class="search_label">Source Pincode</label>
+                                                  <input type="text" class="form-control Search_form_control" placeholder="Source Pincode">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                  <label class="search_label">Destination Pincode</label>
+                                                  <input type="text" class="form-control Search_form_control" placeholder="Source Pincode">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                  <label class="search_label">Customer</label>
+                                                  <input type="text" class="form-control Search_form_control" placeholder="Customer">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                  <label class="search_label">Transporter</label>
+                                                  <input type="text" class="form-control Search_form_control" placeholder="Transporter">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label class="search_label">ETA</label>
+                                                      <div class="input-group date" id="datetimepickerstart3">
+                                                        <input type="text" class="form-control Search_form_control" placeholder="Shipment Date">
+                                                        <span class="input-group-addon rounded-0 Search_form_control">
+                                                            <span class="fa fa-calendar"></span>
+                                                        </span>
+                                                      </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                  <label class="search_label">Billing Amount</label>
+                                                  <input type="text" class="form-control Search_form_control" placeholder="Billing Amount">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                  <label class="search_label">Address</label>
+                                                  <input type="text" class="form-control Search_form_control" placeholder="Address">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <label class="search_label">Details of Shipment</label>
+                                                <textarea class="form-control" rows="3"></textarea>
+                                            </div>
+                                            <!-- <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label class="search_label">Status</label>
+                                                    <select class="form-control Search_form_control">
+                                                        <option>Select from list</option>
+                                                        <option value="Booked" selected="selected">Booked</option>
+                                                        <option value="In-Transit">In-Transit</option>
+                                                        <option value="Delivered">Delivered</option>
+                                                    </select>
+                                                </div>
+                                            </div> -->
+                                        </div>
+                                        <div class="row">
+                                            
+                                            <!-- <div class="col-md-6">
+                                                <label class="search_label">Transport Amount</label>
+                                                <input type="text" class="form-control Search_form_control" placeholder="Transport Amount">
+                                            </div> -->
+                                        </div>
+                                        <hr/>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <div class="row row_margin" style="margin-top: 10px !important;">
+                                        <div class="col-md-8 col-sm-8 col-8">
+                                            <span data-toggle="collapse" data-target="#Tracking_Status" aria-expanded="false" class="collpase_arrow_cursor">
+                                        <i class="fa fa-chevron-down CRM_rotate_data" style="font-size: 12px;color: #898989;"></i><span class="heading_text" style="padding-left: 5px;">Tracking Status</span>
+                                            </span>
+                                        </div>
+                                        <div class="col-md-4 text-right">
+
+                                            <i class="fa fa-plus-circle" title="Add Row" data-toggle="modal" data-target="#Add_Row" style="font-size: 20px;cursor:pointer;line-height:20px;color: #898989;"></i>
+                                        </div>
+                                    </div>
+                                    <hr style="margin-top:0px;margin-bottom: 15px;background: #898989;">
+                                    <div class="CRM_details_div collapse" id="Tracking_Status">
+
+                                        <ul class="timeline">
+                                            <li>
+                                              <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record" rel="tooltip" title="11 hours ago via Twitter" id=""></i></a></div>
+                                              <div class="timeline-panel">
+                                                <div class="timeline-body">
+                                                    <div class="row">
+                                                        <div class="col-md-3" style="width: 18%;">
+                                                            <div style="height: 90px;width: 90px;padding: 7px 10px;background-color: #f4f4f4;">
+                                                                <h5 class="text-center" style="margin-bottom: 8px;"><span style="font-size: 32px;font-weight: 600;">01</span><br/><span style="font-size: 12px;font-weight: 500;">Jul 2020</span></h5>
+                                                                <h6 class="text-center" style="font-weight: 500;margin-bottom: 0px;">12:00:00 AM</h6>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-9" style="width: 82%;">
+                                                            <div style="padding: 10px 0px;">
+                                                                <a>Booked</a>
+                                                                <p>--</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                              </div>
+                                            </li>
+                                            
+                                            <li  class="timeline-inverted">
+                                              <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record invert" rel="tooltip" title="11 hours ago via Twitter" id=""></i></a></div>
+                                              <div class="timeline-panel">
+                                                <div class="timeline-body">
+                                                    <div class="row">
+                                                        <div class="col-md-3" style="width: 18%;">
+                                                            <div style="height: 90px;width: 90px;padding: 7px 10px;background-color: #f4f4f4;">
+                                                                <h5 class="text-center" style="margin-bottom: 8px;"><span style="font-size: 32px;font-weight: 600;">02</span><br/><span style="font-size: 12px;font-weight: 500;">Jul 2020</span></h5>
+                                                                <h6 class="text-center" style="font-weight: 500;margin-bottom: 0px;">12:00:00 AM</h6>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-9" style="width: 82%;">
+                                                            <div style="padding: 10px 0px;">
+                                                                <a>Dispatched</a>
+                                                                <p>--</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                              </div>
+                                            </li>
+                                            <li>
+                                              <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record" rel="tooltip" title="11 hours ago via Twitter" id=""></i></a></div>
+                                              <div class="timeline-panel">
+                                                <div class="timeline-body">
+                                                    <div class="row">
+                                                        <div class="col-md-3" style="width: 18%;">
+                                                            <div style="height: 90px;width: 90px;padding: 7px 10px;background-color: #f4f4f4;">
+                                                                <h5 class="text-center" style="margin-bottom: 8px;"><span style="font-size: 32px;font-weight: 600;">03</span><br/><span style="font-size: 12px;font-weight: 500;">Jul 2020</span></h5>
+                                                                <h6 class="text-center" style="font-weight: 500;margin-bottom: 0px;">12:00:00 AM</h6>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-9" style="width: 82%;">
+                                                            <div style="padding: 10px 0px;">
+                                                                <a>Transit</a>
+                                                                <p>Left from Bhiwandi warehouse</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+
+                                                  
+                                                </div>
+                                              </div>
+                                            </li>
+                                            
+                                            <li  class="timeline-inverted">
+                                              <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record invert" rel="tooltip" title="11 hours ago via Twitter" id=""></i></a></div>
+                                              <div class="timeline-panel">
+                                                <div class="timeline-body">
+                                                    <div class="row">
+                                                        <div class="col-md-3" style="width: 18%;">
+                                                            <div style="height: 90px;width: 90px;padding: 7px 10px;background-color: #f4f4f4;">
+                                                                <h5 class="text-center" style="margin-bottom: 8px;"><span style="font-size: 32px;font-weight: 600;">04</span><br/><span style="font-size: 12px;font-weight: 500;">Jul 2020</span></h5>
+                                                                <h6 class="text-center" style="font-weight: 500;margin-bottom: 0px;">12:00:00 AM</h6>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-9" style="width: 82%;">
+                                                            <div style="padding: 10px 0px;">
+                                                                <a>Transit</a>
+                                                                <p>On the way to Mumbai Central office</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                  
+                                                </div>
+                                              </div>
+                                            </li>
+                                            <li>
+                                              <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record" rel="tooltip" title="11 hours ago via Twitter" id=""></i></a></div>
+                                              <div class="timeline-panel">
+                                                <div class="timeline-body">
+                                                  <div class="row">
+                                                        <div class="col-md-3" style="width: 18%;">
+                                                            <div style="height: 90px;width: 90px;padding: 7px 10px;background-color: #f4f4f4;">
+                                                                <h5 class="text-center" style="margin-bottom: 8px;"><span style="font-size: 32px;font-weight: 600;">05</span><br/><span style="font-size: 12px;font-weight: 500;">Jul 2020</span></h5>
+                                                                <h6 class="text-center" style="font-weight: 500;margin-bottom: 0px;">12:00:00 AM</h6>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-9" style="width: 82%;">
+                                                            <div style="padding: 10px 0px;">
+                                                                <a>Transit</a>
+                                                                <p>Out for delivery</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                              </div>
+                                            </li>
+
+
+
+                                            <li  class="timeline-inverted">
+                                              <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record invert" rel="tooltip" title="11 hours ago via Twitter" id=""></i></a></div>
+                                              <div class="timeline-panel">
+                                                <div class="timeline-body">
+                                                    <div class="row">
+                                                        <div class="col-md-3" style="width: 18%;">
+                                                            <div style="height: 90px;width: 90px;padding: 7px 10px;background-color: #f4f4f4;">
+                                                                <h5 class="text-center" style="margin-bottom: 8px;"><span style="font-size: 32px;font-weight: 600;">06</span><br/><span style="font-size: 12px;font-weight: 500;">Jul 2020</span></h5>
+                                                                <h6 class="text-center" style="font-weight: 500;margin-bottom: 0px;">12:00:00 AM</h6>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-9" style="width: 82%;">
+                                                            <div style="padding: 10px 0px;">
+                                                                <a>Delivered</a>
+                                                                <p>Received by Mr. ABC</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                  
+                                                </div>
+                                              </div>
+                                            </li>
+                                            
+                                            <!-- <li  class="timeline-inverted">
+                                              <div class="timeline-badge primary"><a><i class="glyphicon glyphicon-record invert" rel="tooltip" title="11 hours ago via Twitter" id=""></i></a></div>
+                                              <div class="timeline-panel">
+                                                <div class="timeline-heading">
+                                                    <div class="row">
+                                                        <div class="col-md-5">
+                                                            <a>01 Jul 2020 12:00:00 AM</a>
+                                                        </div>
+                                                        <div class="col-md-7 text-right">
+                                                            <a>Booked</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="timeline-body">
+                                                  <p>Received by Mr. ABC</p>
+                                                </div>
+                                              </div>
+                                            </li> -->
+                                            
+                                            
+                                            
+                                        </ul>
+
+                                        <br/>
+                                        <!-- <div class="custom_table">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <table class="table table-bordered table-hover" style="font-size: 13px;">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Datetime</th>
+                                                                <th>Status</th>
+                                                                <th>Note</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>01 Jul 2020 12:00:00 AM</td>
+                                                                <td>Booked</td>
+                                                                <td></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>02 Jul 2020 12:00:00 AM</td>
+                                                                <td>Dispatched</td>
+                                                                <td></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>03 Jul 2020 12:00:00 AM</td>
+                                                                <td>Transit</td>
+                                                                <td>Left from Bhiwandi warehouse</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>04 Jul 2020 12:00:00 AM</td>
+                                                                <td>Transit</td>
+                                                                <td>On the way to Mumbai Central office</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>05 Jul 2020 12:00:00 AM</td>
+                                                                <td>Transit</td>
+                                                                <td>Out for delivery</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>06 Jul 2020 12:00:00 AM</td>
+                                                                <td>Delivered</td>
+                                                                <td>Received by Mr. ABC</td>
+                                                            </tr>
+
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div> -->
+                                        <!-- <div class="row">
+                                            <div class="col-md-12">
+                                                <a href="#" class="save_btn" data-toggle="modal" data-target="#Add_Row" style="margin: 0px 0px !important;">Add Row</a>
+                                            </div>
+                                        </div> -->
+                                        <hr/>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <div class="row row_margin" style="margin-top: 10px !important;">
+                                        <div class="col-md-8 col-sm-8 col-8">
+                                            <span data-toggle="collapse" data-target="#Documents" aria-expanded="false" class="collpase_arrow_cursor">
+                                        <i class="fa fa-chevron-down CRM_rotate_data" style="font-size: 12px;color: #898989;"></i><span class="heading_text" style="padding-left: 5px;">Documents</span>
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <hr style="margin-top:0px;margin-bottom: 15px;background: #898989;">
+                                    <div class="CRM_details_div collapse" id="Documents">
+                                        <label class="search_label">POD Copy</label>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div style="display: flex;">
+                                                    <div class="preview-images-zone">
+                                                        <div class="preview-image preview-show-1">
+                                                            <div class="image-cancel" data-no="1">x</div>
+                                                            <div class="image-zone img-thumbnail"><img id="pro-img-1" src="img/POD1.jpg"></div>
+                                                        </div>
+                                                        <div class="preview-image preview-show-2">
+                                                            <div class="image-cancel" data-no="2">x</div>
+                                                            <div class="image-zone img-thumbnail"><img id="pro-img-2" src="img/POD2.jpeg"></div>
+                                                        </div>
+                                                    </div>
+                                                    <fieldset class="form-group">
+                                                        <a href="javascript:void(0)" class="save_btn add_img_plus" onclick="$('#pro-image').click()"><i class="fa fa-plus"></i></a>
+                                                        <input type="file" id="pro-image" name="pro-image" style="display: none;" class="form-control" multiple>
+                                                    </fieldset>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <hr />
+
+                                        <label class="search_label">Damages</label>
+
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div style="display: flex;">
+                                                    <div class="preview-images-zone11">
+                                                        <div class="preview-image11 preview-show-1">
+                                                            <div class="image-cancel11" data-no="1">x</div>
+                                                            <div class="image-zone img-thumbnail"><img id="pro-img-1" src="img/Damage1.jpg"></div>
+                                                        </div>
+                                                        <div class="preview-image11 preview-show-2">
+                                                            <div class="image-cancel11" data-no="2">x</div>
+                                                            <div class="image-zone img-thumbnail"><img id="pro-img-2" src="img/Damage2.jpg"></div>
+                                                        </div>
+                                                        <div class="preview-image11 preview-show-3">
+                                                            <div class="image-cancel11" data-no="3">x</div>
+                                                            <div class="image-zone img-thumbnail"><img id="pro-img-3" src="img/Damage3.jpg"></div>
+                                                        </div>
+                                                        <div class="preview-image11 preview-show-4">
+                                                            <div class="image-cancel11" data-no="4">x</div>
+                                                            <div class="image-zone img-thumbnail"><img id="pro-img-4" src="img/Damage4.jpg"></div>
+                                                        </div>
+                                                        <div class="preview-image11 preview-show-5">
+                                                            <div class="image-cancel11" data-no="5">x</div>
+                                                            <div class="image-zone img-thumbnail"><img id="pro-img-5" src="img/Damage5.jpg"></div>
+                                                        </div>
+                                                    </div>
+                                                    <fieldset class="form-group">
+                                                        <a href="javascript:void(0)" class="save_btn add_img_plus" onclick="$('#pro-image11').click()"><i class="fa fa-plus"></i></a>
+                                                        <input type="file" id="pro-image11" name="pro-image11" style="display: none;" class="form-control" multiple>
+                                                    </fieldset>
+                                                </div>
+                                                <div class="comment_damage_img d-none">
+                                                    <textarea class="form-control Search_form_control" placeholder="Comment" rows="4"></textarea>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+
+
+                                
+                                
+
+                                
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright-area">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="footer-copy-right">
+                            <p>Copyright © 2018. All rights reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery-price-slider.js"></script>
+    <script src="js/jquery.meanmenu.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/counterup/jquery.counterup.min.js"></script>
+    <script src="js/counterup/waypoints.min.js"></script>
+    <script src="js/counterup/counterup-active.js"></script>
+    <script src="js/scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/scrollbar/mCustomScrollbar-active.js"></script>
+    <script src="js/metisMenu/metisMenu.min.js"></script>
+    <script src="js/metisMenu/metisMenu-active.js"></script>
+    <script src="js/morrisjs/raphael-min.js"></script>
+    <script src="js/morrisjs/morris.js"></script>
+    <script src="js/morrisjs/morris-active.js"></script>
+    <script src="js/sparkline/jquery.sparkline.min.js"></script>
+    <script src="js/sparkline/jquery.charts-sparkline.js"></script>
+    <script src="js/sparkline/sparkline-active.js"></script>
+    <script src="js/calendar/moment.min.js"></script>
+    <script src="js/calendar/fullcalendar.min.js"></script>
+    <script src="js/calendar/fullcalendar-active.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <!-- <script src="js/tawk-chat.js"></script> -->
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <script type="text/javascript">
+        
+
+    $(document).ready(function() {
+        document.getElementById('pro-image').addEventListener('change', readImage, false);
+        
+        $( ".preview-images-zone" ).sortable();
+        
+        $(document).on('click', '.image-cancel', function() {
+            let no = $(this).data('no');
+            $(".preview-image.preview-show-"+no).remove();
+        });
+    });
+
+    var num = 4;
+    function readImage() {
+        if (window.File && window.FileList && window.FileReader) {
+            var files = event.target.files; //FileList object
+            var output = $(".preview-images-zone");
+
+            for (let i = 0; i < files.length; i++) {
+                var file = files[i];
+                if (!file.type.match('image')) continue;
+                
+                var picReader = new FileReader();
+                
+                picReader.addEventListener('load', function (event) {
+                    var picFile = event.target;
+                    var html =  '<div class="preview-image preview-show-' + num + '">' +
+                                '<div class="image-cancel" data-no="' + num + '">x</div>' +
+                                '<div class="image-zone img-thumbnail"><img data-toggle="modal" data-target="#myModal" id="pro-img-' + num + '" src="' + picFile.result + '"></div>' +
+                                '</div>';
+
+                    output.append(html);
+                    num = num + 1;
+                });
+
+                picReader.readAsDataURL(file);
+            }
+            $("#pro-image").val('');
+        } else {
+            console.log('Browser not support');
+        }
+    }
+
+    </script>
+
+
+
+    <script type="text/javascript">
+        
+
+    $(document).ready(function() {
+        document.getElementById('pro-image11').addEventListener('change', readImage11, false);
+        
+        $( ".preview-images-zone11" ).sortable();
+        
+        $(document).on('click', '.image-cancel11', function() {
+            let no = $(this).data('no');
+            $(".preview-image11.preview-show-"+no).remove();
+        });
+    });
+
+    var num = 4;
+    function readImage11() {
+        if (window.File && window.FileList && window.FileReader) {
+            var files = event.target.files; //FileList object
+            var output = $(".preview-images-zone11");
+
+            for (let i = 0; i < files.length; i++) {
+                var file = files[i];
+                if (!file.type.match('image')) continue;
+                
+                var picReader = new FileReader();
+                
+                picReader.addEventListener('load', function (event) {
+                    var picFile = event.target;
+                    var html =  '<div class="preview-image11 preview-show-' + num + '">' +
+                                '<div class="image-cancel11" data-no="' + num + '">x</div>' +
+                                '<div class="image-zone img-thumbnail"><img data-toggle="modal" data-target="#myModal" id="pro-img-' + num + '" src="' + picFile.result + '"></div>' +
+                                '</div>';
+
+                    output.append(html);
+                    num = num + 1;
+                });
+
+                picReader.readAsDataURL(file);
+            }
+            $("#pro-image").val('');
+        } else {
+            console.log('Browser not support');
+        }
+    }
+
+    </script>
+
+
+
+
+
+    <script type="text/javascript">
+        jQuery(document).ready(function($){
+            $("#pro-image11").click(function(){
+              $('.comment_damage_img').removeClass('d-none');
+            });
+
+
+            // Timeline Js Start
+            var my_posts = $("[rel=tooltip]");
+            for(i=0;i<my_posts.length;i++){
+                the_post = $(my_posts[i]);
+                if(the_post.hasClass('invert')){
+                    the_post.tooltip({ placement: 'left'});
+                    the_post.css("cursor","pointer");
+                }else{
+                    the_post.tooltip({ placement: 'rigt'});
+                    the_post.css("cursor","pointer");
+                }
+            }
+            // Timeline Js End
+
+  
+
+        });
+
+    </script>
+
+
+
+
+
+
+
+</body>
+
+
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog custom_modal_dialog" style="width: 600px;">
+    <div class="modal-content">
+      <div class="modal-body" style="padding: 5px 5px;">
+        <button type="button" class="close image_modal_close" data-dismiss="modal">&times;</button>
+        <img src="img/4.jpg" />
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Modals Start-->
+<div id="Add_Row" class="modal fade" role="dialog">
+  <div class="modal-dialog custom_modal_dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title modal_title_text">Add Status</h4>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label class="search_label">Status</label>
+                    <select class="form-control Search_form_control">
+                        <option>Select from list</option>
+                        <option value="Booked">Booked</option>
+                        <option value="In-Transit">In-Transit</option>
+                        <option value="Delivered">Delivered</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <textarea class="form-control" rows="4" placeholder="comment"></textarea>
+            </div>
+        </div>
+        <br/>
+        
+        <div class="row">
+            <div class="col-md-12">
+                <a href="#" class="save_btn">Update</a>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modals End-->
+
+
+</html>
